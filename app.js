@@ -10,11 +10,10 @@ function clock(){
     let am = "AM";
 
     // Convert 24 hour time to 12 hour format with AM PM Indicator
-
-    if (h > 12){
-        h = h - 12;
-        am = "PM";
-    }
+    // if (h > 12){
+    //     h = h - 12;
+    //     am = "PM";
+    // }
 
     // Add 0 to the beginning of seconds if < 10
     h = (h < 10) ? '0' + h : h;
